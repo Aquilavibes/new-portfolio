@@ -1,0 +1,569 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.upper {
+    display: flex;
+    background-image: url('pxfuel.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.fade-in { 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;
+    font-size: 430%;
+    color: white;
+    animation: fadein 8s;
+}
+
+#ski {
+    text-decoration: none;
+    color: white;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+} 
+
+
+
+#bio {
+    margin-left: 500px;
+    font-size: 200%;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+#veiw-pro {
+    border: solid white;
+    color: white;
+    width: 100px;
+    font-size: 20px;
+    height: 30px;
+}
+
+#get-intouch {
+    border: solid white;
+    color: white;
+    width: 100px;
+    font-size: 20px;
+    margin-left: 30px;
+    height: 30px;
+}
+
+.btn {
+    display: flex;
+    
+}
+
+#proj {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+nav {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    position: relative;
+}
+
+ul {
+    display: flex;
+}
+
+li{
+    padding-left: 40px;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.cyber {
+    color: white;
+    list-style: none;
+    font-size: 24px;
+    margin-right: 340px;
+    text-align: left;
+    
+}
+
+#pro {
+    width: 400px;
+    height: 250px;
+}
+
+.pro-conts {
+    display: grid;
+    gap: var(--size-3);
+    grid-auto-flow: column;
+    grid-auto-columns: 36%;
+    grid-auto-columns: 32%;
+   
+    overflow-x: auto;
+}
+
+
+#pro-names {
+    color: white;
+}
+
+small {
+    color: white;
+}
+
+#intro-fotter {
+    color: white;
+    margin-left: 350px;
+    font-size: 30px;
+}
+
+#about-mob {
+    visibility: hidden;
+}
+
+#about-desk{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+#linee {
+    visibility: hidden;
+}
+
+#about-img {
+ width:  600px; 
+ height: 500px;
+ border-radius: 50px; 
+ margin-bottom: 200px;
+ margin-left: 100px;
+
+}
+
+#about-div {
+    display: flex;
+}
+
+
+
+#avail {
+    color: white;
+    font-size: 20px;
+    
+}
+
+#contact-me {
+    color: white;
+    font-size: 65px;
+    top: initial;
+}
+
+label {
+    color: white;
+    font-size: 20px;
+}
+#name {
+    background-color: black;
+    border: solid white;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 450px;
+    color: white;
+    margin-left: 30px;
+}
+
+#email {
+    background-color: black;
+    border: solid white;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 450px;
+    color: white;
+    margin-left: 30px;
+}
+
+#msg {
+    background-color: black;
+    border: solid white;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 550px;
+    color: white;
+    height: 150px;
+    float: left;
+
+}
+
+
+#em-phone {
+    color: white; 
+    margin-right: 1px; 
+    margin-top: 2px;
+
+      
+}
+
+
+#em {
+    
+    margin-right: 100px;
+    background-color: black;
+    border-radius: 20px;
+    height: 50px;
+}
+
+#link-mail {
+    color: black;
+    margin-bottom: 50px;
+
+}
+
+#phone {
+    color: white;
+}
+
+
+
+.info { 
+    display: flex;
+    justify-content: space-evenly; 
+    margin-right: 100px;
+}
+
+#submit {
+    background-color: grey;
+    color: black;
+    width: 100px;
+    height: 30px;
+}
+
+#end {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#de {
+    font-size: 15px;
+    color:rgb(204, 204, 204);
+}
+
+#all-ri {
+    font-size: 15px;
+    color:rgb(204, 204, 204);
+}
+
+
+#ays {
+    text-decoration: none;
+    color: white;
+}
+
+#skill {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+#skill-img {
+    width: 500px;
+    height: 300px;
+    margin-left: 300px;
+}
+
+#vue {
+    width: 250px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+#mail-logo {
+    width: 45px;
+    height: 40px;
+    margin-top: 6px;
+    margin-left: 25px;
+}
+
+#git-logo {
+    width: 45px;
+    height: 40px;
+    margin-top: 6px
+    
+}
+#em5 {
+    background-color: white;
+    border-radius: 20px;
+    
+}
+#yt-logo {
+    width: 45px;
+    height: 40px;
+    margin-top: 6px
+}
+
+#tik-logo {
+    width: 45px;
+    height: 40px;
+    margin-top: 6px
+}
+
+
+
+#call-logo {
+    width: 45px;
+    height: 40px;
+    margin-top: 6px;
+    margin-left: 50px;
+}
+#close {
+    color: white;
+    display: none;
+}
+
+#menu {
+    
+    color: white;
+   opacity: 0;
+   display: none;
+    
+}
+#close {
+    color: white;
+    opacity: 0;
+
+}
+
+.men-cl {
+    display: flex;
+}
+
+.nav-bar {
+    display: none;
+
+}
+
+
+
+@media (max-width: 800px) {
+    .nav-bar {
+        display: block;
+        margin-left: 190px;
+        position:fixed;
+        justify-content: space-around;
+        width: 180px;
+        height: 350px;
+        margin-top: 10px;
+        background-color: white;
+        text-align: left;
+       opacity: 0;
+        
+    }
+
+    .backdrop {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        position: fixed;
+    }
+
+    .fade-in {
+        font-size: 40px;
+        margin-right: 60px;
+    }
+#bio {
+    font-size: 14px;
+    margin-left: 1px;
+    
+
+}
+
+#view-link {
+    font-size: 35px;
+}
+
+#linee {
+    visibility:visible;
+}
+
+.cyber {
+    margin-left: 70px;
+    color: white;
+    font-size: 26px;
+    text-align: center;
+    height: 50px;
+    margin-top: 40px;
+}
+
+#ays {
+    color: black;
+    font-size: 40px;
+    margin-left: 3px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+
+
+.upper {
+    height: 350px;
+    padding-top: 50px;
+}
+
+#menu {
+    color: white;
+    display: flex;
+    opacity: 30;
+}
+
+#close {
+    color: white;
+    display: flex;
+    position: fixed;
+}
+
+#ski {
+    color: white;
+    text-decoration: none;
+}
+
+.pro-conts {
+    display: flex;
+    gap: var(--size-6);
+    grid-auto-columns: 30%;
+    grid-auto-flow: column;
+    grid-gap: 40px;
+    grid-template-columns: 32%;
+                                   
+    overflow-x:auto;
+    overscroll-behavior-inline: contain;
+}
+
+small {
+    font-size: 19px;
+   
+    
+}
+
+#pro {
+    width: 330px;
+height: 230px;
+}
+
+#about-img {
+    width: 350px;
+    height: 430px;
+    margin-left: 50px;
+   
+} 
+
+#about-div {
+    display: block;
+}
+
+#about-mob {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    visibility: visible;
+}
+
+#about-desk {
+    visibility:hidden;
+}
+
+
+
+
+#intro-fotter {
+    color: white;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 1px;
+    
+}
+
+.men-cl {
+    display: flex;
+    margin-left: 250px;
+    height: 20px;
+    
+}
+nav {
+    display: flex;
+}
+#foot {
+    color: white;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+#skill-img {
+    margin-left: 50px;
+    width: 300px;
+    height: 200px;
+}
+
+#vue {
+    width: 190px;
+    margin-left: 100px;
+    
+}
+
+#em-phone {
+    margin-left: 30px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10px;
+}
+
+#mail-logo {
+    margin-left: 120px;
+}
+
+#call-logo {
+    margin-left: 10px;
+}
+
+#em {
+    margin-right: 20px;
+}
+
+#em2 {
+    margin-right: 40px;
+}
+
+#em3 {
+    margin-right: 30px;
+}
+#em4 {
+    margin-right: 30px;
+}
+
+#em5 {
+    margin-right: 30px;
+}
+.navy {
+    display: none;
+}
+
+}
