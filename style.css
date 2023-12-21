@@ -35,12 +35,20 @@ html {
 
 
 
-#bio {
+#bio-1 {
     margin-left: 500px;
     font-size: 200%;
     color: white;
+    visibility: hidden;
+    display: none;
 }
 
+#bio-2 {
+    margin-left: 500px;
+    font-size: 200%;
+    color: white;
+    visibility: visible;
+}
 body {
     background-color: black;
 }
@@ -386,9 +394,28 @@ label {
         font-size: 40px;
         margin-right: 60px;
     }
-#bio {
-    font-size: 14px;
+#bio-1 {
+    font-size: 20px;
+    color: white;
     margin-left: 1px;
+    visibility: visible;
+    text-align: center;
+    display: block;
+    
+
+}
+
+span {
+    color: white;
+    background-color: grey;
+}
+
+#bio-2 {
+    font-size: 20px;
+    color: white;
+    margin-left: 1px;
+    visibility: hidden;
+    text-align: center;
     
 
 }
@@ -422,6 +449,7 @@ label {
 .upper {
     height: 350px;
     padding-top: 50px;
+    display: block;
 }
 
 #menu {
